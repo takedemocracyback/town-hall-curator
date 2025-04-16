@@ -1,5 +1,6 @@
 import Fastify from "fastify";
 
+console.log("hello");
 const fastify = Fastify({
 	logger: true,
 });
