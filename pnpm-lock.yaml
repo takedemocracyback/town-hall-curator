@@ -12,7 +12,7 @@ importers:
         specifier: ^1.9.4
         version: 1.9.4
 
-  apps/backend:
+  apps/lambdas:
     dependencies:
       aws-cdk-lib:
         specifier: 2.176.0
@@ -42,15 +42,6 @@ importers:
       typescript:
         specifier: ~5.6.3
         version: 5.6.3
-
-  apps/express-app:
-    devDependencies:
-      '@types/node':
-        specifier: 22.7.9
-        version: 22.7.9
-      typescript:
-        specifier: ^5.8.3
-        version: 5.8.3
 
   apps/server:
     dependencies:
