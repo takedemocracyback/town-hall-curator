@@ -1,9 +1,9 @@
 import Fastify from "fastify";
 
-console.log("hello");
 const fastify = Fastify({
 	logger: true,
 });
+
 // Declare a route
 fastify.get("/", (_, reply) => {
 	reply.send({ hello: "world" });
