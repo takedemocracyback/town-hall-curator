@@ -6,7 +6,9 @@ An application to create town hall events for legislators in a single location
 
 This project uses `pnpm` as the package manager. The project is configured as a monorepo using a PNPM Workspace. 
 
-Instructions on how to install [`pnpm` can be found here](https://pnpm.io/installation).
+Instructions on how to install [`pnpm` can be found here](https://pnpm.io/installation). 
+
+This project uses the [Biome Linter and Formatter](https://biomejs.dev/).
 
 ## Project Structure
 
