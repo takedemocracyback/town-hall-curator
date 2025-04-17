@@ -10,6 +10,8 @@ Instructions on how to install [`pnpm` can be found here](https://pnpm.io/instal
 
 This project uses the [Biome Linter and Formatter](https://biomejs.dev/).
 
+For instructions on how to get started with contributing, visit the ![Contributing.md](CONTRIBUTING.md) for more instructions.
+
 ## Project Structure
 
 All application code lives in the `/apps` directory. To install dependencies for each application, run `pnpm install` at the root of the project.
