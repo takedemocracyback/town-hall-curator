@@ -22,7 +22,9 @@ The `/apps` directory contains the source code for several applications. As it c
  - `/server`
  - `/ui`
 
-The `/core` directory contains the business logic to facilitate 
+The `/core` directory contains the business logic. The reasoning behind this is to allow us to move to a different infrastructure, without needing to disentangle the logic from any framework specific code.
+
+Currently, we'll be using a [Fastify server](https://fastify.dev/) to act as our API. Fastify is very similar to Express, but has some meaningful improvements over it. The code for this lives in the `/server` directory.
 
 
 ## Project Plan
