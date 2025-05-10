@@ -27,9 +27,6 @@ async function loadSavedCredentialsIfExist() {
 
 /**
  * Serializes credentials to a file compatible with GoogleAuth.fromJSON.
- *
- * @param {OAuth2Client} client
- * @return {Promise<void>}
  */
 async function saveCredentials(client) {
 	const content = await fs.readFile(CREDENTIALS_PATH);
@@ -84,3 +81,5 @@ async function listLabels(auth) {
 		console.log(`- ${label.name}`);
 	}
 }
+
+authorize().then(listLabels).catch(console.error);
