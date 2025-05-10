@@ -1,11 +1,14 @@
 import Fastify from "fastify";
 
+import { testFunction } from "core";
+
 const fastify = Fastify({
 	logger: true,
 });
 
 // Declare a route
 fastify.get("/", (_, reply) => {
+	testFunction();
 	reply.send({ hello: "world" });
 });
 

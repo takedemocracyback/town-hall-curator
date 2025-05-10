@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cloud:synth": "pnpm --filter cloud cdk synth",
     "core:dev": "pnpm --filter core dev",
     "server:dev": "pnpm --filter server dev",
     "server:start": "pnpm --filter server start",
